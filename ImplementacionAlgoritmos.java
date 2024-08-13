@@ -6,7 +6,8 @@ package com.mycompany.implementacionalgoritmos;
 
 /**
  *
- * @author ACER
+ *Laura Sophia Hernández Rojas, María Belén Peña Meléndez, Angie Lorena López Ruiz
+ * 
  */
 public class ImplementacionAlgoritmos {
 

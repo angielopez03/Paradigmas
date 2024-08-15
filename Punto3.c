@@ -1,14 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    char nombre[100];  // Declara un arreglo de caracteres (cadena) de tamaño 100 para almacenar el nombre del usuario
-
-    printf("Por favor ingrese su nombre: ");  // Muestra un mensaje solicitando al usuario que ingrese su nombre
-
-    scanf("%99s", nombre);  // Lee una cadena de caracteres desde la entrada estándar y la almacena en el arreglo 'nombre'
-                             // %99s asegura que se lean hasta 99 caracteres para evitar el desbordamiento de búfer
-
-    printf("¡Hola %s!", nombre);  // Imprime un saludo utilizando el nombre ingresado por el usuario
-
-    return 0;  // Indica que el programa terminó exitosamente
+int main() 
+{
+	float n1=0; //se declaran las variables donde se depositan los numeros
+	float n2=0;
+	printf("Ingrese dos numeros para dividir: ");
+	scanf("%f", &n1);
+	scanf("%f", &n2); //Se imprime el mensaje y se leen los numeros
+	
+	float r=0;
+	if (n2!=0) //Se hace  la condicion para que el denominador no sea 0
+	{
+		r= (n1/n2);
+		printf("El resultado de la division es, %f", r);
+	}
+		else 
+		{
+			printf("Error matematico"); //y en caso de que sea 0 imprimir error
+		}
 }

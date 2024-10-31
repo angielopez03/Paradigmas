@@ -318,7 +318,3 @@ to plot-nand
   set-current-plot-pen "negatives"
   plotxy 1 1
 end
-
-
-; Copyright 2006 Uri Wilensky.
-; See Info tab for full copyright and license.
